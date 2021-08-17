@@ -1,0 +1,50 @@
+/* Media query */
+
+ /* Mobile */ 
+ @media only screen and (max-width:400px) {
+    footer {
+        background-color:rgba(41, 38, 38, 0.733);
+    }
+
+    .about-head {
+        font-size:46px;
+    }
+
+    .main-head {
+        padding-left: 0px;
+    }
+
+    .p-where {
+        padding-left:0px
+    }
+}
+
+
+/* TABLET */
+
+@media only screen and (min-width:401px) and (max-width:960px) {
+    footer {
+        background-color:rgba(182, 169, 169, 0.733);
+    }
+    .about-head {
+        font-size:46px;
+    }
+
+    .main-head {
+        padding-left:0px;
+    }
+
+    .p-where {
+        padding-left:0px
+    }
+}
+
+/* Desktop */
+
+@media only screen and (min-width:961px) {
+    footer {
+        background-color:rgba(105, 99, 99, 0.733);
+    }
+} 
+
+/* Fin Media Querys */

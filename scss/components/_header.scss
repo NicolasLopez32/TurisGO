@@ -1,0 +1,45 @@
+$itemcolor: #FFF;
+
+/* Inicio Header */
+.menu {
+    background-color:  rgb(99, 86, 86, 0.801); 
+    border-bottom:2px solid rgba(255, 255, 255, 0.67);
+    box-shadow:2px 0 10px rgba(0,0,0,.6);
+    padding-bottom: 0em;
+}
+
+.logo {
+    font: {
+        family: 'barlow-condensed';
+        size: 34px;
+        weight:bold;
+    }
+    letter-spacing: 3px;
+    color: rgb(224, 235, 217);
+    text-transform: uppercase;
+    
+} 
+
+.menu-items {
+    color:$itemcolor !important;
+
+    li {
+        border-radius: 10px;
+        a {
+            text: {
+                decoration: none;
+                transform: uppercase;
+            }
+            display:block;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color:$itemcolor;
+        }
+
+        &:hover {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.67);
+            border-radius: 0px;
+        }
+    }
+}
+
+/*Fin Header */

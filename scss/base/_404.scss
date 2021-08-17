@@ -1,0 +1,63 @@
+
+@import '../base/lista-fonts';
+
+/* Pagina Error 404 */
+body {
+    background-color: rgb(8,28,34);
+    margin:0;
+    padding:0;
+    height: 100vh;
+}
+
+
+
+.container-404 {
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    align-items:center;
+    justify-content: center;
+
+    img {
+        width:50%;
+    }
+
+    h1 {
+        color:#FFF;
+        font-size:20px;
+        padding:20px;
+
+    }
+
+    .boton-404 {
+        padding:13px 30px;
+        border-radius:15px;
+        border:none;
+        background-color:rgb(5,129,245);
+        color:rgb(5,129,245);
+    }
+
+    .home{
+		font-size: nth($font-size , 1 );
+		padding: 12px;
+		border: 1px solid;
+		color: #FFF;
+		background-color: transparent;
+		text-decoration: none;
+		transition: all 0.5s ease-in-out;
+
+		&:hover, &:active {
+			color: #fff;
+			background: #000;
+        }
+       
+        }
+    }
+
+
+@media screen and (max-width:630px) {
+    h1 {
+        font-size:13px;
+    }
+}
