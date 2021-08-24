@@ -9,7 +9,9 @@
     .foto-destino1, .foto-destino2 {
         width:80%;
         padding-left: 0px;
-        margin-left:10%
+        margin-left:10%;
+        height: 40vh;
+        
     }
 
     .p-about {
@@ -31,7 +33,7 @@
         padding-left:0px
     }
 }
-
+/* FIN MOBILE */ 
 
 /* TABLET */
 
@@ -43,6 +45,18 @@
         font-size:46px;
     }
 
+    .foto-destino1, .foto-destino2 {
+        width:80%;
+        padding-left: 0px;
+        margin-left:10%;
+        height: 40vh;
+        
+    }
+
+    .parrafo-destino1, .parrafo-destino2 {
+        padding-left: 0px;
+    }
+
     .main-head {
         padding-left:0px;
     }
@@ -51,6 +65,7 @@
         padding-left:0px
     }
 }
+/* FIN TABLET */ 
 
 /* Desktop */
 
@@ -59,5 +74,6 @@
         background-color:rgba(105, 99, 99, 0.733);
     }
 } 
+/* FIN DESKTOP */ 
 
 /* Fin Media Querys */
