@@ -22,8 +22,10 @@
     <meta property="og:description" content="Turismo por Argentina, viajes económicos, Agencia de Turismo">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/images/turisgo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="turisgo.ico" type="image/x-icon">
     
+    <!-- Fontaswesome Icon -->
+    <script src="https://kit.fontawesome.com/600db8f4ac.js" crossorigin="anonymous"></script>
     <!-- Este es el titulo de mi pagina -->
     <title>Sitio oficial de TurisGO, Agencia de Turismo</title>
 
@@ -35,7 +37,9 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top menu">
         <div class="container-fluid">
           <h1 class="logo">
-            <a class="navbar-brand" href="index.html">TurisGO</a>
+            <a class="navbar-brand logo" href="index.html">
+              TurisGO
+            </a>
           </h1>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -154,45 +158,57 @@
 
 <!-- Seccion de Contacto  -->
 <section id="contacto">
-    <div class="about-head">
-        Contacto
-    </div>
+  <div class="about-head">
+      Contacto
+  </div>
 
-    <div>
-        <p class="parrafo-envianos">Envíanos un Correo:</p>
-    </div>
-    
-    <form>
-        <div class="contact col-lg-8">
-          <div class="form-group col-md-3 ps-3">
-            <input type="text" class="form-label w-100" name="nombre" placeholder="Nombre" required>
-          </div>
-          <div class="form-group col-md-3 ps-3">
-            <input type="text" class="form-label w-100" name="telefono" placeholder="Teléfono" required>
-          </div>
+  <div>
+      <p class="parrafo-envianos">Envíanos un Correo:</p>
+  </div>
+  
+  <form action="send-post.php" method="POST">
+      <div class="row g-6 align-items-center col-sm-6 col-md-6 col-xl-6 col-xxl-6">
+        <div class="form-group col-sm-6 col-md-6 ps-4">
+          <label for="name" class="form-label">Nombre:</label>
+          <input type="text" class="form-label w-100" id="name" name="nombre" placeholder="Nombre" required="">
+        </div>
 
-          <!-- Force next columns to break to new line -->
-          <div class="w-100"></div>
+        <div class="form-group col-sm-6 col-md-6 ps-4">
+          <label for="name" class="form-label">Teléfono:</label>
+          <input type="text" class="form-label w-100" name="telefono" placeholder="Teléfono" required="">
+        </div>
 
-          <div class="form-group col-md-3 ps-3">
-            <input type="email" class="form-label w-100" name="correo" placeholder="Correo" required>
-          </div>
-          <div class="form-group col-md-3 ps-3">
-            <input type="text" class="form-label w-100" name="asunto" placeholder="Asunto" required>
-          </div>
-     
-          <div class="form-group contact-form-msg ps-3 mt-2">
-            <textarea class="contact-form-msg" id="textarea" name="mensaje2" placeholder="Mensaje..." required></textarea>
-          </div>
+        <!-- Force next columns to break to new line -->
+        <div class="w-100"></div>
 
-           <!-- Force next columns to break to new line -->
-           <div class="w-100"></div>
+        <div class="form-group col-sm-6 col-md-6 ps-4">
+          <label for="name" class="form-label white">Correo:</label>
+          <input type="email" class="form-label w-100" name="correo" placeholder="Correo" required="">
+        </div>
 
-           <div class="ps-3">
-              <button type="submite" name="enviar" class="btn btn-primary py-sm3 py-2 px-5 mt-2">Enviar</button>
-           </div>
-        </div> 
-    </form>
+        <div class="form-group col-sm-6 col-md-6 ps-4">
+          <label for="name" class="form-label">Asunto:</label>
+          <input type="text" class="form-label w-100" name="asunto" placeholder="Asunto" required="">
+        </div>
+   
+        <div class="form-group contact-form-msg ps-4 mt-2">
+          <label for="name" class="form-label" style="display:block;">Mensaje:</label>
+
+          <textarea class="contact-form-msg" id="textarea" name="mensaje2" placeholder="Mensaje..." required=""></textarea>
+        </div>
+
+         <!-- Force next columns to break to new line -->
+         <div class="w-100"></div>
+
+
+         <div class="ps-3 mt-5 pb-2 ps-4">
+            <button type="submite" name="enviar" class="btn btn-primary py-sm3 py-2 px-5 mt-2">Enviar</button>
+         </div>
+
+         <!-- Force next columns to break to new line -->
+         <div class="w-100"></div>
+      </div> 
+  </form>
 </section>
 <!-- Fin seccion de Contacto -->
     
@@ -224,22 +240,25 @@
                     <ul>
                       <li>
                           <a href="http://facebook.com">
-                              <img class="logo-facebook" src="images/facebook.png" alt="Logo Facebook">
-                                Facebook
+                              <!-- <img class="logo-facebook" src="images/facebook.png" alt="Logo Facebook"> -->
+                              <i class="fab fa-facebook"></i>
+                                
                           </a>
                       </li>
                         
                       <li>
                           <a href="http://instagram.com">
-                              <img class="logo-instagram" src="images/instagram.png" alt="Logo Instagram">
-                                Instagram
+                              <!-- <img class="logo-instagram" src="images/instagram.png" alt="Logo Instagram"> -->
+                              <i class="fab fa-instagram"></i>
+                                
                           </a>
                       </li>
         
                       <li>
                           <a href="http://twitter.com">
-                              <img class="logo-twitter" src="images/twitter.png" alt="Logo Twitter">
-                                Twitter
+                              <!-- <img class="logo-twitter" src="images/twitter.png" alt="Logo Twitter"> -->
+                              <i class="fab fa-twitter-square"></i>
+                               
                           </a>
                       </li>
                     </ul>

@@ -2,9 +2,6 @@
 
  /* Mobile */ 
  @media only screen and (max-width:400px) {
-    footer {
-        background-color:rgba(41, 38, 38, 0.733);
-    }
 
     .foto-destino1, .foto-destino2 {
         width:80%;
@@ -13,6 +10,10 @@
         height: 40vh;
         
     }
+
+     #contacto .contact-form-msg {
+         width:100%;
+     }
 
     .p-about {
         max-width:100%;
@@ -32,15 +33,21 @@
     .p-where {
         padding-left:0px
     }
+
+    footer .footer-container ul li a {
+        width:30px;
+    }
+
+    footer .footer-container .follow-us {
+        padding-left:10px;
+    }
 }
 /* FIN MOBILE */ 
 
 /* TABLET */
 
 @media only screen and (min-width:401px) and (max-width:960px) {
-    footer {
-        background-color:rgba(182, 169, 169, 0.733);
-    }
+
     .about-head {
         font-size:46px;
     }
@@ -64,15 +71,34 @@
     .p-where {
         padding-left:0px
     }
+
+
+    footer .footer-container ol, footer .footer-container ul {
+        padding: 10px;
+    }
 }
 /* FIN TABLET */ 
 
 /* Desktop */
 
 @media only screen and (min-width:961px) {
-    footer {
-        background-color:rgba(105, 99, 99, 0.733);
+ 
+    .foto-destino1, .foto-destino2 {
+        width:80%;
+        padding-left: 0px;
+        margin-left:10%;
+        height: 40vh;
+        
     }
+
+    .parrafo-destino1, .parrafo-destino2 {
+        padding-left: 0px;
+    }
+
+    footer .footer-container ol, footer .footer-container ul {
+        padding-left: 15px;
+    }
+
 } 
 /* FIN DESKTOP */ 
 

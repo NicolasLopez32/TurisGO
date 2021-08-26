@@ -8,16 +8,15 @@ $itemcolor: #FFF;
     padding-bottom: 0em;
 }
 
-.logo {
+h1.logo a.navbar-brand {
     font: {
-        family: 'barlow-condensed';
-        size: 34px;
-        weight:bold;
+        family: 'Poiret One', cursive;
+        size: 30px;
+        weight: 400;
+        style:italic;
     }
     letter-spacing: 3px;
-    color: rgb(224, 235, 217);
-    text-transform: uppercase;
-    
+    color: #FFF; 
 } 
 
 .menu-items {
