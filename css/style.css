@@ -85,7 +85,7 @@ h1.logo a.navbar-brand {
   text-align: center;
   letter-spacing: 0.5px;
   font-family: "barlow-condensed";
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .back-destinos {
@@ -105,6 +105,8 @@ h1.logo a.navbar-brand {
   width: 80%;
   height: 350px;
   padding-left: 150px;
+  border: 2px solid black;
+  border-radius: 20px;
 }
 
 .parrafo-destino1, .parrafo-destino2 {
@@ -302,12 +304,6 @@ footer .footer-label {
 }
 
 /* Fin Footer */
-/* Clases de Iconos (Facebook/Instagram/Twitter) */
-.logo-facebook, .logo-instagram, .logo-twitter {
-  height: 20px;
-}
-
-/* Fin Iconos */
 /* Inicio keyframes */
 @keyframes slidein {
   from {
@@ -340,6 +336,10 @@ footer .footer-label {
     height: 40vh;
   }
 
+  .img-head {
+    height: 35vh;
+  }
+
   #contacto .contact-form-msg {
     width: 100%;
   }
@@ -354,10 +354,6 @@ footer .footer-label {
 
   .about-head {
     font-size: 46px;
-  }
-
-  .main-head {
-    padding-left: 0px;
   }
 
   .p-where {
@@ -387,10 +383,6 @@ footer .footer-label {
   }
 
   .parrafo-destino1, .parrafo-destino2 {
-    padding-left: 0px;
-  }
-
-  .main-head {
     padding-left: 0px;
   }
 

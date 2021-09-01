@@ -24,7 +24,7 @@ $d-grid: grid;
 
     font: {
         family: 'barlow-condensed';
-        size: nth($font-size , 9 );
+        size: nth($font-size , 7 );
         
     }   
 }
@@ -44,6 +44,8 @@ $d-grid: grid;
     width: 80%; 
     height: 350px;
     padding-left:150px;
+    border: 2px solid black;
+    border-radius: 20px;
 } 
 .parrafo-destino1, .parrafo-destino2 {
     color: map-get($color-black, color);
